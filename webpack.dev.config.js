@@ -43,6 +43,7 @@ module.exports = {
             }
         ]
     },
+    // 自动识别后缀，在使用 import 的时候尤其方便
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
