@@ -43,6 +43,9 @@ module.exports = {
 
         ]
     },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
     plugins: [
         // 版权信息
         new webpack.BannerPlugin("Copyright Charleylal 2016 inc."),
