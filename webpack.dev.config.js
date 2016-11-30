@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 module.exports = {
-    entry:  __dirname + "/app/main.js",
+    entry:  __dirname + "/app/main.jsx",
     output: {
         path: __dirname + "/build",
         filename: "bundle.js"
